@@ -1,4 +1,9 @@
 %Monkey_Banana_Sticky problem
+% H - me dont know if the monkey has or not the banana on this state
+% Brief explanation of the 'methods' on this file
+% state(MonkeyHorizontalPosition, MonkeyVerticalPosition, BoxPosition, MonkeyHasOrNoBananas)
+% P, P1, P2 - undefined positions the monkey/objects may be
+
 
 /*
 domain
@@ -27,6 +32,7 @@ canget(State1):-do(State1, _, State2), canget(State2).
 %change_directory('F:/JuniorStaff/UEM/4ano/IA/monkey-banana-sticky').
 %[resolution].
 %Canget(state(atdoor, onfloor,atwindow, nosticky, hasnot)).
+
 
 
 
