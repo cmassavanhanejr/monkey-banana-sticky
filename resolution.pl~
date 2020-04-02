@@ -6,7 +6,7 @@ domain
 predicates
 	state(name, name, name, name, name)
 	action(name, name, name)
-	canshake(name)
+	canshake(name) 
 */
 
 
@@ -26,7 +26,7 @@ canget(State1):-do(State1, _, State2), canget(State2).
 %queries
 %change_directory('F:/JuniorStaff/UEM/4ano/IA/monkey-banana-sticky').
 %[resolution].
-%Canget(state(atdoor, onfloor,atwindow, nosticky, hasnot)).
+%canget(state(atdoor, onfloor,atwindow, nosticky, hasnot)).
 
 
 
